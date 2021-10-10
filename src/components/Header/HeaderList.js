@@ -1,11 +1,11 @@
 import React from 'react';
-import Header from './Header';
+import HeaderItem from './HeaderItem';
 
 const HeaderList = () => {
     return (
         <ul className="header__navList">
-            <Header path="/" name="Home"/>
-            <Header path="/grade" name="Grade"/>
+            <HeaderItem path="/" name="Home"/>
+            <HeaderItem path="/grade" name="Grade"/>
         </ul>
     );
 }

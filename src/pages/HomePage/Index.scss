@@ -1,0 +1,11 @@
+@import '../../scss/_common';
+
+.homePage {
+    padding: 100px 15px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    max-width: 1230px;
+    height: 100vh;
+    @include u-flex($jc: center, $ai: center);
+}

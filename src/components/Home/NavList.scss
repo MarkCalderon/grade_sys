@@ -1,0 +1,7 @@
+@import '../../scss/_common';
+
+
+.navList {
+    width: 100%;
+    @include u-flex($jc: flex-start, $fw: nowrap);
+}

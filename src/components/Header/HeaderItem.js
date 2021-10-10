@@ -1,7 +1,7 @@
 import React from 'react';
 import {NavLink} from 'react-router-dom';
 
-const Header = ({path, name}) => {
+const HeaderItem = ({path, name}) => {
     return (
         <li className="header__navItem">
             <NavLink to={path} exact>{name}</NavLink>
@@ -9,4 +9,4 @@ const Header = ({path, name}) => {
     )
 }
 
-export default Header;
+export default HeaderItem;

@@ -1,0 +1,18 @@
+@import '../../scss/_common';
+
+.navItem {
+    $this: &;
+    width: calc(100% / 3);
+
+    &:not(:first-child) {
+        margin-left: 10px;
+    }
+
+    &__link {
+        padding: 100px 0;
+        width: 100%;
+        @include u-font($fzPC: 2rem, $fw: bold, $ft: uppercase);
+        background-color: rgba($black, 0.2);
+        @include u-flex($jc: center, $ai: center, $fw: no-wrap);
+    }
+}
